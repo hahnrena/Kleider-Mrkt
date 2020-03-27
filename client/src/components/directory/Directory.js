@@ -29,14 +29,14 @@ class Directory extends React.Component{
                 },
                 {
                   title: 'womens',
-                  imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+                  imageUrl: 'https://thefader-res.cloudinary.com/private_images/w_2400,c_limit,f_auto,q_auto:best/Champion8_RAW_kex8dc/cardigans-champion-earrings-closer-by-wwake-hoops-craven-iteri-choker-lady-grey.jpg',
                   size: 'large',
                   id: 4,
                   linkUrl: ''
                 },
                 {
                   title: 'mens',
-                  imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+                  imageUrl: 'https://thefader-res.cloudinary.com/private_images/w_1800,c_limit,f_auto,q_auto:eco/Rock2_RAW_ekn6hm/sweater-l-l-bean-jacket-nautica-pants-adidas-equipment-hat-nike-acg-shoes-nike-x-acronym.jpg',
                   size: 'large',
                   id: 5,
                   linkUrl: ''
