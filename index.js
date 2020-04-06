@@ -2,7 +2,7 @@ const path = require('path');
 const express = require('express');
 const app = express();
 
-const clientPath = path.join(__dirname, '..', 'client');
+const clientPath = path.join(__dirname, 'build', 'client');
 
 app.use(express.static(clientPath));
     
