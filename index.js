@@ -2,12 +2,12 @@ const path = require('path');
 const express = require('express');
 const app = express();
 
-const publicPath = path.join(__dirname, '..', 'public');
+const clientPath = path.join(__dirname, '..', 'client');
 
-app.use(express.static(publicPath));
+app.use(express.static(clientPath));
     
 app.get('*', (req, res) => {
-    res.sendFile(path.join(publicPath, 'index.html'))
+    res.sendFile(path.join(clientPath, 'index.html'))
 });
 
 
