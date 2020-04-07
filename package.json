@@ -11,13 +11,17 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
-
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "firebase": "^7.13.0",
-    "react-router-dom": "^5.1.2"
+    "node-sass": "^4.13.1",
+    "persistor": "^2.11.1",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "redux": "^4.0.5",
+    "reselect": "^4.0.0"
   }
 }
