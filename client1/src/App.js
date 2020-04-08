@@ -7,18 +7,13 @@ import ShopPage from './pages/shopPage/shopPage';
 import Header from './components/header/header';
 import SignInAndSignUpPage from './pages/signInUp/signInUp';
 import CheckoutPage from './pages/checkout/checkOut';
+import ContactPage from './pages/contact/contactPage';
 
 import { auth, createUserProfileDocument } from './firebase/utils/firebase';
 import { setCurrentUser } from './redux/actions/user';
 import { selectCurrentUser } from './redux/selectors/userSelector';
 
 import './App.css';
-
-const ContactPage = () => (
-  <div>
-    CONTACT PAGE
-  </div>
-);
 
 
 class App extends React.Component {

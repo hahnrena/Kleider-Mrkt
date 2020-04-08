@@ -6,6 +6,7 @@ import { createStructuredSelector } from 'reselect';
 import { auth } from '../../firebase/utils/firebase'
 import CartIcon from '../cart-icon/cartIcon';
 import CartDropdown from '../cart-dropdown/cartDropdown';
+
 import { selectCartHidden } from '../../redux/selectors/cartSelector';
 import { selectCurrentUser } from '../../redux/selectors/userSelector';
 
@@ -18,6 +19,7 @@ const Header = ({ currentUser, hidden }) => (
         <Link className='logo' to="/">
             <Logo className='logo'/>
         </Link>
+        <div className='name'>KLEIDER MRKT</div>
         <div className='options'>
             <Link className='option' to="/shop">
                 SHOP
