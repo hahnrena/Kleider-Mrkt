@@ -11,7 +11,7 @@ import { ReactComponent as ShoppingIcon } from '../../assets/shopping-icon.svg'
 import './cart-icon.modules.scss';
 
 const CartIcon = ({ toggleCartHidden, itemCount }) => {
-    return(<div className='cart-icon' onClick={toggleCartHidden}>
+    return(<div className='cart-icon' onMouseEnter={toggleCartHidden} onMouseLeave={toggleCartHidden}>
         <ShoppingIcon className='shopping-icon'/>
         <span className='item-count'>{itemCount}</span>
     </div>
@@ -26,4 +26,6 @@ const mapStateToProps = createStructuredSelector ({
     currentUser: selectCurrentUser
 })
 
-export default connect(mapStateToProps, mapDispatchToProps)(CartIcon);
+export default connect(mapStateToProps, mapDispatchToProps)(CartIcon); 
+
+// if()
